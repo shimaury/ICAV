@@ -21,7 +21,7 @@ spec:
       - name: myapp
         image: 166234657968.dkr.ecr.us-east-1.amazonaws.com/icav-repo:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 80
         resources:
           requests:
             cpu: 250m
