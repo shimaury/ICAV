@@ -1,0 +1,98 @@
+## Basics
+> General
+
+1. What is the role of AWS/Azure/GCP in DevOps?
+   AWS/Azure/GCP are the best cloud service providers currently in market and on other hand DevOps is implementation of SDLC.these cloud providers supports DevOps as it provides services for building, storing, and deploying applications. 
+   As customer demands evolved businesses adapted to become more agile ,so from last few years market trying to moved from waterfall methodology to agile
+   AWS/Azure/GCP supports many DevOps principles and practices that businesses can improve the agility of their business.
+   Cloud provide users with the ability to access resources from any location and any device 
+   Cloud computing has provide developers easy access to development platforms in minutes, which was taking months in earlier. It initialize complicated application ecosystems like SAP in a single click and development teams can work instantaneously.
+   Cloud computing makes the implementation of DevOps simpler which providees each step of development lifecycle. Through clouds, applications can be  built and tested on various environments which will remove the need of physical machine testand also to cost reductions due to the on-demand nature of cloud technology.
+ 
+2. How will you approach a project that needs to implement DevOps?
+  1. understand why devops is needed.
+  2. alanysis how deployment works.
+  3. analysis how monitor works
+  4. how long we have release ? 
+  5. How often dev get feedback about thier code. how quickly they promoted bug fixed code.
+  6. How code is pushed from lower to higher env.
+   
+3. Mention some of the core benefits of DevOps.
+   >Increased business agility
+   >Reduced time to release cycle
+   >Increased Productivity
+   >Reduced cost
+   >Increase in customer satisfaction
+   >Increased Application / Product uptime
+   
+4. What are the different phases in DevOps?
+   There are seven phases in DevOps which will help to provide the agile methodology
+   Continuous Development
+   Continuous Integration
+   Continuous Testing
+   Continuous Monitoring
+   Continuous Feedback
+   Continuous Deployment
+   Continuous Operations
+
+5. Explain the concept of branching in Git.
+   Using branches help you organize the workflow more efficiently and rather effortlessly
+   
+   Let’s say, you are building a software for a company in a team of 5 people. It would be a good idea to have a branch for each developer because usually they work on different things. And because of the way Git works, you can keep working on your branch regardless of the work that is happening in other branches.
+
+   A common practice in a lot of companies is to have one branch where the code is ready to shipped and another branch for testing. So, In that case, you work on the testing branch and if everything is working as expected, you add it in to the main production branch.
+   
+   
+
+6. What is a merge conflict in Git, and how can it be resolved?
+   merge conflicts happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file
+   
+   Most simpler way to resolve a merge conflict is to edit the conflicted file.also you can set appropriate mergetool configuration which allows you to run git mergetool command to perform a 3 way merge
+   
+   
+> Security
+1. What is DDoS attack? How do you deal with it?
+   Distributed Denial of Service attack is a non-intrusive internet attack which will take down the targeted website or slow it down by flooding the network, server or application with fake traffic.
+   
+   How to deal with it?
+   
+   Locate servers in different data centers.
+   Ensure that data centers are located on different networks.
+   Install a malware security scanner
+   Use a firewall to stop DDoS attacks
+   we can use SIEM tool to monitor the traffic and build a good correlation. Then we can easily filter out the attacks from their and take proactive measures to prevent the attack.
+   
+2. What are the benefits of having Policy management?
+
+   Employees understand the constraints of their job without using a ‘trial and error’ approach, as key points are visible in well-written policies and procedures.
+   Policies and procedures enable the workforce to clearly understand individual and team responsibilities, thus saving time and resources. Everyone is working off the same page; employees can get the “official” word on how they should go about their tasks quickly and easily.
+   Clearly written policies and procedures allow managers to exercise control by exception rather than ‘micro-manage’ their staff
+   Clearly written policies and procedures provide legal protection. If written clearly so that outsiders understand, the company has better legal footing if challenged in court.
+   
+3. How HTTPS is different from HTTP?
+
+   HTTP stands for Hypertext Transfer Protocol. it allows for the communication between different systems. It’s most commonly used to transfer data from a web server to a browser in order to allow users to view web pages
+   
+   HTTPS stands for Hypertext Transfer Protocol Secure. The problem with the regular HTTP protocol is that the information that flows from server to browser is not encrypted, which means it can be easily stolen
+   HTTPS protocols uses SSL (secure sockets layer) certificate, which helps create a secure encrypted connection between the server and the browser, thereby protecting potentially sensitive information from being stolen as it is transferred between the server and the browser.
+   
+4. What TCP and UDP vulnerabilities are you familiar with?
+   IP Spoofing 
+   Denial of service attack
+   Man in middle attack
+   DNS spoofing 
+   
+
+5. Explain OAuth
+   Open Authorization is protocol for authorization of an application for using user information , it allows a third party application access to user related info like name, DOB, email or other required data from an application like Facebook, Google etc. without giving the third party app the user password. Like in our phone when we are accessing any application its giving multiple options Login with facebook , google that is done through OAuth
+   
+6. What types of firewalls are there?
+   
+   Packet-filtering firewalls
+   Circuit-level gateways
+   Stateful inspection firewalls
+   Application-level gateways (a.k.a. proxy firewalls)
+   Next-gen firewalls
+   Software firewalls
+   Hardware firewalls
+   Cloud firewalls
